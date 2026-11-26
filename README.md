@@ -1,2 +1,8 @@
-# Konfigurasi-VLAN
-Konfigurasi VLAN pada seri MikroTik CRS3XX berfokus pada pemisahan segmen jaringan di Layer 2 menggunakan fitur Bridge VLAN Filtering yang diakselerasi langsung oleh perangkat keras (hardware offloading). Dengan arsitektur ini, lalu lintas data antarsegmen dapat dialihkan pada kecepatan penuh (wire-speed) tanpa membebani kinerja CPU perangkat.
+# 🎈 Interkoneksi VLAN Lintas Lokasi Menggunakan Protokol EoIP over IPSec Berbasis MikroTik RouterOS.🎈
+
+## 🎨Ringkasan
+Proyek ini bertujuan menghubungkan dua jaringan LAN yang berada di gedung berbeda menggunakan MikroTik RouterOS dengan teknologi EoIP over IPSec.
+
+Inti dari proyek ini adalah membuat jaringan VLAN di dua lokasi berbeda seolah-olah berada dalam satu jaringan lokal (Layer 2), tetapi komunikasi antarlokasinya tetap dilindungi enkripsi IPSec.
+
+## 🎀Topologi
